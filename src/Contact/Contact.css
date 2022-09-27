@@ -1,0 +1,216 @@
+#body #contact {
+	background: url(../images/bg-content.png) repeat-y top center;
+    background-size: contain;
+	margin: 0;
+	min-height: 720px;
+	padding: 0;
+}
+#body #contact {
+	padding-bottom: 32px;
+}
+#body #contact > div {
+	margin: 0;
+
+	padding: 10px 10px 30px;
+}
+#body #contact div .figure {
+	background: url(../images/frame3.jpg) repeat;
+	float: left;
+	margin: 0 20px;
+	padding: 20px;
+	width: 300px;
+}
+#body #contact div .figure img {
+	border: 1px solid #fff;
+	display: block;
+}
+#body #contact div p {
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body #contact div .figure p {
+	color: #f8f4e3;
+	padding: 12px 0 15px;
+}
+#body #contact div p a {
+	color: #868466;
+	text-decoration: underline;
+}
+#body #contact div p a:hover {
+	color: #736229;
+}
+#body #contact div .figure p a {
+	color: #f8f4e3;
+}
+#body #contact div .figure p a:hover {
+	color: #fff;
+}
+#body #contact div .section {
+	float: left;
+	margin: 0 20px;
+	padding: 5px 20px 0;
+	width: 480px;
+}
+#body #contact div .section ul, #body #contact div .section ul li {
+	margin: 0;
+	padding: 0;
+}
+#body #contact div .section ul {
+	padding: 10px 0 0;
+}
+#body #contact div .section ul li {
+	color: #989282;
+	line-height: 24px;
+	list-style: none;
+	margin: 0;
+	padding: 14px 0;
+}
+#body #contact div .section ul li span {
+	color: #c6440a;
+	display: block;
+	font-size: 16px;
+	font-family: 'Wellfleet-Regular';
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+#body #contact div .section ul li a {
+	color: #868466;
+	text-decoration: underline;
+}
+#body #contact div .section ul li a:hover {
+	color: #736229;
+}
+#body #contact form {
+	border-radius: 50px;
+	border: 2px solid #bca47a;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 40px 0px 30px 50px;
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+#body #contact form span {
+	clear: both;
+	color: #c6440a;
+	display: block;
+	font-size: 16px;
+	font-family: 'Wellfleet-Regular';
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 17px;
+	text-transform: uppercase;
+}
+.group        { 
+	position:relative; 
+	margin-bottom:45px; 
+  }
+  .group h2{
+	color: #303a61;
+  }
+  input         {
+	font-size:18px;
+	padding:10px 10px 10px 5px;
+	display:block;
+	width:500px;
+	border:none;
+	border-bottom:1px solid #757575;
+  }
+  input:focus     { outline:none; }
+  
+  /* LABEL ======================================= */
+  label          {
+	color:#999; 
+	font-size:18px;
+	font-weight:normal;
+	position:absolute;
+	pointer-events:none;
+	left:5px;
+	top:10px;
+	-webkit-transition:0.2s ease all; 
+	-moz-transition:0.2s ease all; 
+	transition:0.2s ease all;
+  }
+  
+  /* active state */
+  input:focus ~ label, input:valid ~ label    {
+	top:-20px;
+	font-size:14px;
+	color:#303a61;
+  }
+  
+  /* BOTTOM BARS ================================= */
+  .bar  { position:relative; display:block; width:300px; }
+  .bar:before, .bar:after   {
+	content:'';
+	height:2px; 
+	width:0;
+	bottom:1px; 
+	position:absolute;
+	background:#303a61; 
+	-webkit-transition:0.2s ease all; 
+	-moz-transition:0.2s ease all; 
+	transition:0.2s ease all;
+  }
+  .bar:before {
+	left:50%;
+  }
+  .bar:after {
+	right:50%; 
+  }
+  
+  /* active state */
+  input:focus ~ .bar:before, input:focus ~ .bar:after {
+	width:50%;
+  }
+  
+  /* HIGHLIGHTER ================================== */
+  .highlight {
+	position:absolute;
+	height:60%; 
+	width:100px; 
+	top:25%; 
+	left:0;
+	pointer-events:none;
+	opacity:0.5;
+  }
+  
+  /* active state */
+  input:focus ~ .highlight {
+	-webkit-animation:inputHighlighter 0.3s ease;
+	-moz-animation:inputHighlighter 0.3s ease;
+	animation:inputHighlighter 0.3s ease;
+  }
+  
+  /* ANIMATIONS ================ */
+  @-webkit-keyframes inputHighlighter {
+	from { background:#303a61; }
+	to  { width:0; background:transparent; }
+  }
+  @-moz-keyframes inputHighlighter {
+	from { background:#303a61; }
+	to  { width:0; background:transparent; }
+  }
+  @keyframes inputHighlighter {
+	from { background:#303a61; }
+	to  { width:0; background:transparent; }
+  }
+  .btn{
+	background-color: #fff;
+	border: 3px solid #303a61;
+	padding: 3px 10px;
+	color: #303a61;
+	border-radius: 10px;
+	width: 230px;
+  }
+  .btn:hover{
+	background-color: #303a61;
+	color: #fff;
+	border-color: #bca47a;
+  }

@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+/*Website Template by freewebsitetemplates.com*/
+body {
+  background-color: #c7d7dc;
+	color: #868466;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+#body{
+	padding-top: 70px;
+}
+#background {
+	background: url(./images/gradient.png) repeat-x top left;
+	margin: 0;
+	padding: 0;
+}
+#page {
+	margin: 0 auto;
+	padding: 0;
+  width: 69%;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #bca47a; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #223e48; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #295d6f; 
+  }

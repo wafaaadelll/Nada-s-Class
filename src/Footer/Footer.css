@@ -1,0 +1,118 @@
+#footer {
+	background: url(../images/bg-footer.png) no-repeat top center;
+    background-size: cover;
+	height: 222px;
+	margin: 0;
+	padding: 18px 0 31px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	width: 100%;
+}
+#footer div {
+	margin: 0;
+	padding: 0;
+}
+#footer > p {
+	color: #fff;
+	display: block;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: capitalize;
+}
+#footer div div {
+	float: left;
+	padding: 0 0 44px;
+	width: 320px;
+}
+#footer div div h3 {
+	color: #fff;
+	font-family: 'Wellfleet-Regular';
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 30px 17px;
+	text-transform: uppercase;
+}
+#footer div div p {
+	color: #f8f4e3;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 30px;
+}
+#footer div div p span {
+	display: block;
+	text-transform: capitalize;
+}
+#footer div div p a {
+	color: #f8f4e3;
+	text-decoration: none;
+}
+#footer div div p a:hover {
+	color: #fffac2;
+	text-decoration: underline;
+}
+#footer div div ul {
+	margin: 0;
+	
+	padding: 0;
+}
+#footer div div ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#footer div div ul li a {
+	text-decoration: none;
+}
+#footer div div ul.category li {
+	margin: 0 10px 0 0;
+	padding: 0 0 0 30px;
+	line-height: 24px;
+	width: 120px;
+}
+#footer div div ul.category li a {
+	color: #f8f4e3;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#footer div div ul.category li a:hover {
+	color: #fffac2;
+	text-decoration: underline;
+}
+#footer div div ul.connect {
+	padding: 0 0 0 30px;
+}
+#footer div div ul.connect li {
+	margin: 0 12px 0 0;
+	width: 73px;
+}
+#footer div div ul.connect li a {
+	font-size: 75px;
+	color: #f8f4e3;
+    background-color: #af9363;
+    display: flex;
+	cursor: pointer;
+}
+#footer div div ul.connect #facebook a {
+	background-position: 0 0;
+}
+#footer div div ul.connect #facebook a:hover {
+	background-position: -78px 0;
+}
+#footer div div ul.connect #twitter a {
+	background-position: 0 -82px;
+}
+#footer div div ul.connect #twitter a:hover {
+	background-position: -78px -82px;
+}
+#footer div div ul.connect #googleplus a {
+	background-position: 0 -164px;
+}
+#footer div div ul.connect #googleplus a:hover {
+	background-position: -78px -164px;
+}
